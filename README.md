@@ -22,10 +22,12 @@ Um script em Node.js para extrair dados de produtos da Amazon usando **Bun** e *
 
 ### **2. Configurar o Proxy**
 - Edite o arquivo server.js e adicione seu proxy pago:
+- Remova os Proxies gratuitos e adicione a sua lista de proxy
 
-const proxyAgent = new HttpsProxyAgent(
-  'http://seu-usuario:senha@gate.smartproxy.com:7000' // Exemplo do Smartproxy
-);
+const proxyList = [
+    'http://45.79.199.134:3128',  // EUA
+    'http://45.224.153.39:999'     // Brasil
+  ];
 
 ### **3. Rodar o Servidor**
 
