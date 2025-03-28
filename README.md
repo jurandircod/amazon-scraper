@@ -32,11 +32,11 @@ const proxyList = [
 ### **3. Rodar o Servidor**
 
 **Para o Frontend:**
-- cd frontend
+- Entrar na pasta frontend e executar:
 - npm run dev 
 
 **Para o Backend:**
-- cd backend
+- Entrar na pasta backend e executar:
 - bun run server.js
 
 
